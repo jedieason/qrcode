@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Website</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            flex: 1;
+            text-align: center;
+        }
+        .svg-container {
+            width: 90%; /* Adjust this value as needed */
+            height: auto;
+        }
+        .label {
+            margin-top: 10px;
+            font-size: 4vw;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <object class="svg-container" type="image/svg+xml" data="Trading-interface.svg"></object>
+        <div class="label">股市</div>
+    </div>
+    <div class="container">
+        <object class="svg-container" type="image/svg+xml" data="Crashed.svg"></object>
+        <div class="label">Crashed</div>
+    </div>
+</body>
+</html>
